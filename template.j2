@@ -8,7 +8,6 @@ pipelines:
     materials:
       git:
         git: https://{{ item.1.giturl }}
-        username: {{ item.1.githubuser }}
         shallow_clone: false
         auto_update: true
         branch: master

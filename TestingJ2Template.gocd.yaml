@@ -8,7 +8,6 @@ pipelines:
     materials:
       git:
         git: https://github.com/lgs/pipeline-as-a-code
-        username: lgs
         shallow_clone: false
         auto_update: true
         branch: master
