@@ -1,0 +1,8 @@
+---
+templates:
+  - name: testing-j2-template
+    template: template.j2
+    pipelines:
+      - name: TestingJ2Template
+        group: Apache
+        giturl: github.com/lgs/pipeline-as-a-code
