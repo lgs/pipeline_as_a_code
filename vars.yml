@@ -5,4 +5,5 @@ templates:
     pipelines:
       - name: TestingJ2Template
         group: TestingGroup
+        githubuser: lgs
         giturl: github.com/lgs/pipeline-as-a-code
