@@ -5,4 +5,4 @@ templates:
     pipelines:
       - name: TestingJ2Template
         group: TestingGroup
-        giturl: github.com/lgs/
+        giturl: github.com/lgs/GoCDtest

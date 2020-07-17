@@ -7,7 +7,7 @@ pipelines:
     display_order: -1
     materials:
       git:
-        git: https://github.com/lgs/
+        git: https://github.com/lgs/GoCDtest
         shallow_clone: false
         auto_update: true
         branch: master
@@ -26,7 +26,7 @@ pipelines:
             - exec:
                 arguments:
                 - -c
-                - echo $SERVER_NAME
+                - echo Hello world, this is PaaC J2 template 
                 command: sh
                 run_if: passed
 
